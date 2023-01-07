@@ -10,8 +10,75 @@ header{
   background-color: #EC715F;
 }
 
+.nav-list{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.logo{
+  width: 140px;
+  height: 70px;
+  background-size: cover;
+  list-style: none;
+  display: inline-block;
+  float: left;
+  background-image: url(img/logo.png);
+}
+
+.nav-list-item{
+  list-style: none;
+  display: inline-block;
+  float: right;
+  padding: 25px 30px;
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
 .main-visual{
   width: 100%;
   height: 650px;
-  background-color: #000;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual > h1{
+  font-size: 64px;
+  color: #fafafa;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.main-visual > p{
+  font-size: 20px;
+  color: #FAFAFA;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.portfolio{
+  width: 100%;
+  background-color: #ECEFF1;
+}
+
+.portfolio > h1{
+  font-size: 32px;
+  color: #000;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.portfolio > .p-line{
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  padding-top: 8px;
+  margin: 0 auto;
+}
+
+.portfolio > p{
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  padding: 30px 0;
 }
