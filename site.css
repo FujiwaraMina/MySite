@@ -82,3 +82,49 @@ header{
   text-align: center;
   padding: 30px 0;
 }
+
+.p-visual{
+  display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.p-visual-box{
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.p-visual-box:nth-child(1){
+  background-image: url(img/sketch.jpg);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.p-visual-box:nth-child(2){
+  background-image: url(img/websuku.png);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.p-visual-box:nth-child(3){
+  background-image: url(img/write.jpg);
+  margin-bottom: 10px;
+}
+
+.p-visual-box:nth-child(4){
+  background-image: url(img/webcamp.png);
+  margin-right: 10px;
+}
+
+.p-visual-box:nth-child(5){
+  background-image: url(img/talk.jpg);
+  margin-right: 10px;
+}
+
+.p-visual-box:nth-child(6){
+  background-image: url(img/webcamp-mother.png);
+}
