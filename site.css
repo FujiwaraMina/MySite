@@ -72,8 +72,7 @@ header{
   width: 70px;
   height: 3px;
   background-color: #EC715F;
-  padding-top: 8px;
-  margin: 0 auto;
+  margin: 8px auto;
 }
 
 .portfolio > p{
@@ -146,8 +145,7 @@ header{
   width: 70px;
   height: 3px;
   background-color: #EC715F;
-  padding-top: 8px;
-  margin: 0 auto;
+  margin: 8px auto;
 }
 
 .feature > p{
@@ -188,4 +186,72 @@ header{
 
 .strength:nth-child(2){
   margin: 0 10px;
+}
+
+.profile{
+  width: 100%;
+  background-color: #ECEFF1;
+}
+
+.profile > h1{
+  font-size: 32px;
+  color: #000;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.profile > .pr-line{
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  margin: 8px auto;
+}
+
+.profile > p{
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.main-profile{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.profile-icon{
+  width: 512px;
+  padding-top: 30px;
+}
+
+.p-image{
+  background-image: url(img/my-icon.jpg);
+  width: 250px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius:50%;
+}
+
+.profile-text{
+  width: 512px;
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.profile-text h2{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.profile-text p{
+  font-size: 16px;
+  color: #000;
+}
+
+.myname{
+  padding-bottom: 20px;
 }
