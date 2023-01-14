@@ -348,3 +348,227 @@ footer > p{
   text-align: center;
   padding-top: 20px;
 }
+
+@media screen and (max-width:767px){
+  header{
+    height: 50px;
+  }
+
+  .nav-list{
+    width: 90%;
+  }
+
+  .logo{
+    width: 100px;
+    height: 50px;
+  }
+
+  .nav-list-item{
+    display: none;
+  }
+
+  .humburger{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin: 5px 0;
+    border: 1px solid #FAFAFA;
+  }
+
+  .humburger-bar{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+  }
+
+  .humburger-bar:nth-child(1) {
+   margin-top: 10px;
+  }
+
+  .humburger-bar:nth-child(2) {
+    margin-top: 5px;
+  }
+
+  .humburger-bar:nth-child(3) {
+    margin-top: 5px;
+  }
+
+  .main-visual{
+    background-image: url(img/code.png);
+  }
+
+  .main-visual > h1{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 40px;
+    padding-top: 200px;
+    text-align: center;
+  }
+
+  .main-visual > p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .portfolio > p{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .p-visual{
+    display: block;
+    width: 90%;
+    padding-bottom: 90px;
+  }
+
+  .p-visual-box{
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .p-visual-box:nth-child(1){
+    display: none;
+  }
+
+  .p-visual-box:nth-child(2){
+    margin: 0 auto 10px;
+  }
+
+  .p-visual-box:nth-child(3){
+    display: none;
+  }
+
+  .p-visual-box:nth-child(4){
+    margin: 0 auto 10px;
+  }
+
+  .p-visual-box:nth-child(5){
+    display: none;
+  }
+
+  .feature > p{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .feature-s{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .strength{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .strength > i{
+    width: 100%;
+    text-align: center;
+  }
+
+  .strength:nth-child(2){
+    margin: 10px auto;
+  }
+
+  .profile > p{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .main-profile{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .profile-icon{
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .profile-text{
+    width: 100%;
+    padding: 0 0 90px;
+  }
+
+  .profile-text h2{
+    font-size: 20px;
+    padding: 20px 0 5px;
+    text-align: center;
+  }
+
+  .profile-text p{
+    text-align: center;
+  }
+
+  .myname{
+    padding-bottom: 0px;
+  }
+
+  .contact > p{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-content{
+    width: 90%;
+    display: block;
+    padding-bottom: 90px;
+    margin: 0 auto;
+  }
+
+  .phone{
+    width: 100%;
+  }
+
+  .phone-contents{
+    width: 100%;
+    text-align: center;
+  }
+
+  .phone-contents > h2{
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+
+  .phone-contents p{
+    padding-bottom: 20px;
+    text-decoration: underline;
+  }
+
+  .sns{
+    width: 100%;
+  }
+
+  .sns-contents{
+    width: 100%;
+    text-align: center;
+  }
+
+  .sns-contents > h2{
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+
+  .sns-contents > i{
+    font-size: 50px;
+  }
+
+  .fa-facebook-f{
+    padding-right: 8px;
+  }
+
+  .fa-twitter{
+    padding-right: 8px;
+  }
+
+}
